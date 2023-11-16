@@ -1,0 +1,232 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Chivo', sans-serif;
+}
+
+header{
+    height:22vh;
+}
+
+.headTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 30px 10px 15px;
+}
+
+.logo{
+    width: 1.9375rem;
+    height: 1.9375rem;
+    flex-shrink: 0;
+}
+
+.headTop h2{
+    color: #716966;
+    font-weight: 900;
+}
+
+.headTop i{
+    font-size: 22px;
+}
+
+header hr{
+    background: #D0D0D0;
+    height:0.07px;
+    outline: none;
+    border: none;
+}
+
+.headBottom{
+    padding:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-bars-staggered, .fa-heart{
+    border:2px solid black;
+    padding:5px;
+    font-size: 12px;
+    position: relative;
+}
+
+.fa-image, .fa-location-dot, .fa-arrow-down-short-wide{
+    font-size: 25px;
+    position: relative;
+}
+
+.fa-location-dot{
+    margin-right: 20vw;
+    color: #D7D7D7;
+}
+
+.fa-bars-staggered::after{
+    content: "Content";
+    bottom: -17px;
+}
+
+.fa-image::after{
+    content: "Gallery";
+}
+
+.fa-location-dot::after{
+    content:"Map";
+}
+
+.fa-heart::after{
+    content:"Shortlisted";
+    bottom: -17px;
+}
+
+.fa-heart.active{
+    color:#E0A64E;
+    border-color: #E0A64E;
+}
+
+.fa-arrow-down-short-wide::after{
+    content:"Sort";
+}
+
+header i::after{
+    position: absolute;
+    font-size: 7px;
+    bottom:-15px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+header i:hover{
+    color:#E0A64E;
+    border-color: #E0A64E;
+}
+
+/*-----editing the sections-----*/
+
+.des1{
+      background-color:#FFFCF2;
+}
+
+.des{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    height:40vh;
+}
+
+.desDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.desDetails h2{
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.desDetails p{
+    font-size: 0.625rem;
+    width:75%;
+}
+
+.desElem{
+    margin:8px
+}
+
+.desAbout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70vw;
+    font-weight: 900;
+    width:70%;
+}
+
+.desAbout p{
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.desPhone{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.desIcons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color:#8D4337;
+    cursor:pointer;
+}
+
+.desProj::after{
+    content:"Projects";
+}
+
+.desYears::after{
+    content:"Years";
+}
+
+.desPrice::after{
+    content:"Price";
+}
+
+.desAbout p::after{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    bottom:-15px;
+    left:20%;
+    transform: translateX(-60%);
+}
+
+.fa-arrow-right::after{
+    content:"Details";
+}
+
+.fa-eye-slash::after{
+    content:"Hide";
+}
+
+.fa-bookmark::after{
+    content:"Shortlist";
+}
+
+.fa-phone::after{
+    content:"Call";
+}
+
+.fa-circle-exclamation::after{
+    content:"Report";
+}
+
+.desIcons i{
+    position: relative;
+}
+
+.desIcons i::after{
+    position: absolute;
+    bottom:-15px;
+    font-size: 0.4rem;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+
+@media (min-width:600px)
+{
+    .headBottom{
+         justify-content: space-around;
+    }
+
+    .des{
+        justify-content: space-around;
+    }
+}
