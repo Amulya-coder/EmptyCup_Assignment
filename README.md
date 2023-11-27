@@ -11,7 +11,7 @@ Built with HTML, CSS and JavaScript
 ## 👉 Instructions
 1. Clone the repository using ` git clone https://github.com/Amulya-coder/EmptyCup_Assignment.git`
 2. Open the project in your VS Code IDE
-3. Display the index.html in your browser.
+3. Open the index.html page in your browser.
 
 ## Screenshots
 ![image](https://github.com/Amulya-coder/EmptyCup_Assignment/assets/66437295/e50745ff-dbd4-415e-9947-98f7b03ecd80)
