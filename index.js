@@ -58,28 +58,3 @@ filter.addEventListener('click',()=>{
         flag=0;
     }
 });
-
-/*
-function filterItems()
-{
-   if(flag==0)
-   {
-     flag=1;
-
-     for(let i=0; i<card.length; i++)
-     {
-        if(!selectedCards.includes(card[i]))
-        {
-            card[i].style.display="none";
-        }
-     }
-   }
-   else
-   {
-     flag=0;
-     for(let i=0; i<card.length; i++)
-     {
-        card[i].style.display="flex";
-     }
-   }
-}*/
