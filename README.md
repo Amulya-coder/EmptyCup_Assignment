@@ -1,5 +1,5 @@
 ## 📌 About
-This is the web assignemnt for EmptyCup Internship program.
+This is the web assignment for EmptyCup Internship program.
 
 ## ✨ Features
 1. Create a single mobile web page that looks exactly like the given design.
